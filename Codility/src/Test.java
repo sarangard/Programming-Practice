@@ -70,10 +70,10 @@ public class Test
 		/*
 		CountDiv countDiv = new CountDiv(6,11,2);
 		System.out.println("Number of integers divisible are " + countDiv.getCountDiv());
-		*/
+		*/					
 		
-		Solution sol = new Solution();
-				
+		FactorialRemainder factorialRemainder = new FactorialRemainder(50);
+		System.out.println("Factorial Remainder is " + factorialRemainder.getFactorialRemainder());
 	}
 
 	public static void printArray(int[] array)
